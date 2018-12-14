@@ -134,7 +134,7 @@ public class TestAPIDemo extends BaseTestClass {
 			
 			try {
 				// 사용 가능한 resource의 데이타 얻어오기 
-				res = driver.getPerformanceData("demo.fun.com.apis", (String)performanceDataTypes.get(i), 100); //"demo.fun.com.apis" 자리는 어플리케이션의 package 이름을 줘야함(package 이름은 Appium 확인) 
+				res = driver.getPerformanceData("demo.fun.com.apis", (String)performanceDataTypes.get(i), 5);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
